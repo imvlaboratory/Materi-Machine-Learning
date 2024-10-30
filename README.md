@@ -47,11 +47,10 @@ Untuk memahami hubungan antara fitur dan label, bayangkan seperti ini: fitur ada
 <p align="center">
 <img src="https://cdn-images-1.medium.com/max/1600/1*xs6Jr4iAPvoqszF9JgDWOA.png" width="800" style="vertical-align:middle">
 </p>
-Klasifikasi dan regresi adalah dua jenis utama dari tugas pembelajaran mesin yang diawasi, dan masing-masing memiliki tujuan berbeda tergantung pada jenis output yang ingin diprediksi.<br>
+Klasifikasi dan regresi adalah dua jenis utama dari tugas supervised machine learning, dan masing-masing memiliki tujuan berbeda tergantung pada jenis output yang ingin diprediksi.<br>
 Berikut adalah penjelasan masing-masing:<br>
-<br>
-<h2>Klasifikasi</h2>
-Klasifikasi adalah jenis tugas pembelajaran mesin di mana tujuannya adalah memprediksi label diskrit, atau kategori, untuk data yang diberikan. Dalam klasifikasi, data dibagi menjadi kelas-kelas yang terpisah, dan model belajar untuk menempatkan data baru ke salah satu dari kelas-kelas yang sudah ditentukan. Hasilnya bersifat kategorikal, yang berarti jatuh ke dalam kategori tertentu alih-alih menjadi nilai kontinu.<br>
+<h3>Klasifikasi</h3>
+Klasifikasi adalah jenis tugas pembelajaran mesin di mana tujuannya adalah memprediksi label diskrit, atau kategori. Dalam klasifikasi, data dibagi menjadi kelas-kelas yang terpisah, dan model belajar untuk menempatkan data baru ke salah satu dari kelas-kelas yang sudah ditentukan.<br>
 <br>
 <ul>
 <li>Contoh: Tugas-tugas klasifikasi umum termasuk deteksi spam (mengklasifikasikan email sebagai "spam" atau "bukan spam"), diagnosis penyakit (memprediksi apakah seorang pasien memiliki penyakit atau tidak), dan pengenalan gambar (mengidentifikasi objek seperti "kucing," "anjing," atau "mobil" dalam gambar).</li>
@@ -63,7 +62,7 @@ Klasifikasi Multi-kelas: Lebih dari dua kelas, seperti mengkategorikan hewan men
 <li>Algoritma yang Sering Digunakan: Algoritma klasifikasi umum meliputi regresi logistik, k-nearest neighbors (k-NN), support vector machines (SVM), pohon keputusan, random forests, dan jaringan saraf.
 </li>
 </ul>
-<h2>Regresi</h2>
+<h3>Regresi</h3>
 Regresi adalah jenis tugas pembelajaran mesin di mana tujuannya adalah memprediksi nilai kontinu berdasarkan fitur-fitur input. Alih-alih mengelompokkan data ke dalam kelas diskrit, model regresi menghasilkan nilai numerik. Model ini belajar memahami hubungan antara fitur-fitur input dan variabel target, memungkinkan model untuk membuat prediksi yang terletak dalam spektrum kontinu.
 <ul><br>
 <li>Contoh: Tugas-tugas regresi umum termasuk prediksi harga rumah, peramalan suhu, dan estimasi harga saham.</li>
@@ -74,3 +73,4 @@ Regresi adalah jenis tugas pembelajaran mesin di mana tujuannya adalah mempredik
 </ul>
 <li>Algoritma yang Sering Digunakan: Algoritma regresi umum meliputi regresi linear, regresi polinomial, pohon keputusan, random forests, dan jaringan saraf.</li>
 </ul>
+## A. What is Machine Learning?
