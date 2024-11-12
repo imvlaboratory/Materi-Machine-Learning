@@ -74,7 +74,7 @@ Regresi adalah jenis tugas pembelajaran mesin di mana tujuannya adalah mempredik
 <li>Algoritma yang Sering Digunakan: Algoritma regresi umum meliputi regresi linear, regresi polinomial, pohon keputusan, random forests, dan jaringan saraf.</li>
 </ul>
 
-## C. Machine Learning Workflow
+## D2. Machine Learning Workflow
 <p align="center">
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*XgcF3ayEH2Q8JEbZx8D09Q.png" width="800" style="vertical-align:middle">
 </p>
