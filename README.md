@@ -11,7 +11,7 @@
     Dalam istilah sederhana, AI (Artificial Intelligence) ialah sistem atau mesin yang `meniru kecerdasan manusia` untuk melakukan tugas dan secara terus-menerus dapat meningkatkan kemampuannya berdasarkan `informasi yang telah dikumpulkan`. AI telah diwujudkan dalam beberapa bentuk. Beberapa contohnya adalah:
     
     <ol type="a">
-    Chatbot, menggunakan AI untuk memahami masalah pelanggan lebih cepat dan memberikan jawaban yang lebih efisien</li>
+    <li>Chatbot, menggunakan AI untuk memahami masalah pelanggan lebih cepat dan memberikan jawaban yang lebih efisien</li>
     <li>Smart Assistant, menggunakan AI untuk mengurai informasi penting dari kumpulan data teks dalam jumlah besar guna mengatur jadwal pengguna secara lebih baik</li>
     <li>Recommendation Engine, menggunakan AI supaya dapat memberikan rekomendasi otomatis untuk acara TV berdasarkan kebiasaan menonton pengguna, atau rekomendasi produk berdasarkan riwayat pembelian di platform ecommerce</li>
     </ol>
