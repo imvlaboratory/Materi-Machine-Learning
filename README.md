@@ -1,4 +1,4 @@
-<h1 align="center"> Machine Learning </h1>
+<h1 align="center">Study Group Day 3 : Machine Learning </h1>
 
 ## A. What is Machine Learning?
 
@@ -74,7 +74,7 @@ Regresi adalah jenis tugas pembelajaran mesin di mana tujuannya adalah mempredik
 <li>Algoritma yang Sering Digunakan: Algoritma regresi umum meliputi regresi linear, regresi polinomial, pohon keputusan, random forests, dan jaringan saraf.</li>
 </ul>
 
-## D2. Machine Learning Workflow
+## D. Machine Learning Workflow
 <p align="center">
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*XgcF3ayEH2Q8JEbZx8D09Q.png" width="800" style="vertical-align:middle">
 </p>
@@ -126,3 +126,56 @@ Tujuan: Memantau kinerja model yang telah diterapkan seiring waktu untuk memasti
 </li>
 </ol>
 
+## E. Performance Metrics
+<p align="center">
+<img src="https://media.licdn.com/dms/image/v2/C5112AQGM7rWklfggow/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1578311015279?e=2147483647&v=beta&t=1akmPtn_45gpDcBLAwNKyAjSWfGJdQX8Z4npNBoym_I" width="800" style="vertical-align:middle">
+<br>TP = True Positive; TN = True Negative; FP = False Positive; FN = False Negative;
+</p>
+Performance metrics adalah ukuran yang digunakan untuk mengevaluasi kinerja model pembelajaran mesin. Berikut adalah beberapa metrik umum beserta penjelasannya secara singkat:
+<ul>
+<li>Akurasi
+    
+Mengukur persentase prediksi benar dari total prediksi. Cocok untuk data seimbang (jumlah kelas relatif sama), tapi kurang informatif untuk data tidak seimbang.
+</li>
+<li>Presisi (Precision)
+
+Mengukur seberapa banyak prediksi positif benar dibandingkan semua prediksi positif. Berguna untuk menghindari banyaknya false positives.
+</li> 
+<li>Recall (Sensitivitas)
+    
+Mengukur seberapa banyak dari total sampel positif yang berhasil diprediksi dengan benar. Berguna untuk mengurangi jumlah false negatives.
+​</li>
+<li>F1-Score
+    
+Kombinasi dari presisi dan recall yang memberikan keseimbangan antara keduanya, khususnya jika kedua metrik sama pentingnya.
+</li>
+</ul>
+## Bonus. Hyperparameter Optimization via Grid Search Method
+Grid search adalah metode pencarian hyperparameter yang umum digunakan dalam pembelajaran mesin untuk menemukan kombinasi parameter terbaik bagi model. Hyperparameter adalah parameter yang nilainya tidak dipelajari dari data, melainkan diatur sebelum pelatihan model dimulai. Contoh hyperparameter termasuk jumlah pohon dalam model random forest atau tingkat pembelajaran dalam model jaringan saraf.
+
+Grid search bekerja dengan mencoba semua kombinasi yang mungkin dari nilai-nilai hyperparameter yang sudah ditentukan dalam rentang atau "grid" tertentu. Tujuan dari metode ini adalah untuk menemukan kombinasi hyperparameter yang memberikan kinerja terbaik berdasarkan metrik evaluasi yang dipilih (seperti akurasi, presisi, atau mean squared error) pada data validasi.
+
+Langkah-langkah Grid Search
+Berikut adalah cara kerja grid search secara umum:
+
+Tentukan Rentang Hyperparameter: Tentukan hyperparameter yang ingin disesuaikan serta nilai-nilai yang ingin diuji. Misalnya, untuk model SVM, kita dapat mencoba berbagai nilai untuk parameter C dan gamma.
+
+Misalnya:
+
+C: [0.1, 1, 10, 100]
+gamma: [0.001, 0.01, 0.1, 1]
+Bentuk Kombinasi: Buat semua kombinasi yang mungkin dari nilai-nilai hyperparameter yang telah ditentukan. Dengan contoh di atas, grid search akan mencoba setiap pasangan dari nilai C dan gamma, yang menghasilkan 16 kombinasi.
+
+Latih dan Evaluasi Model: Untuk setiap kombinasi, latih model menggunakan data pelatihan, kemudian evaluasi kinerjanya menggunakan data validasi atau pengujian.
+
+Pilih Kombinasi Terbaik: Setelah menguji semua kombinasi, pilih kombinasi hyperparameter yang menghasilkan kinerja terbaik sesuai metrik yang diinginkan.
+
+Kelebihan dan Kekurangan Grid Search
+Kelebihan:
+
+Mudah dan Komprehensif: Grid search mencoba semua kombinasi yang memungkinkan, sehingga dapat menemukan kombinasi hyperparameter optimal untuk ruang pencarian yang kecil.
+Implementasi Mudah: Grid search mudah diterapkan dengan bantuan pustaka seperti Scikit-Learn di Python.
+Kekurangan:
+
+Biaya Komputasi Tinggi: Jika ruang pencarian besar (terdapat banyak hyperparameter atau nilai yang diuji), grid search bisa sangat lambat dan mahal secara komputasi.
+Kurang Efisien untuk Pencarian Luas: Grid search tidak mempertimbangkan nilai hyperparameter yang diujinya, sehingga mencoba semua kombinasi bahkan jika beberapa nilai tidak relevan.
