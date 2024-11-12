@@ -73,4 +73,55 @@ Regresi adalah jenis tugas pembelajaran mesin di mana tujuannya adalah mempredik
 </ul>
 <li>Algoritma yang Sering Digunakan: Algoritma regresi umum meliputi regresi linear, regresi polinomial, pohon keputusan, random forests, dan jaringan saraf.</li>
 </ul>
-## A. What is Machine Learning?
+## D. Machine Learning Workflow
+<p align="center">
+<img src="https://miro.medium.com/v2/resize:fit:1200/1*XgcF3ayEH2Q8JEbZx8D09Q.png" width="800" style="vertical-align:middle">
+</p>
+Alur kerja (workflow) pembelajaran mesin adalah pendekatan terstruktur untuk membangun dan menerapkan model pembelajaran mesin, mulai dari persiapan data hingga evaluasi dan penerapan model akhir. Berikut adalah langkah-langkah umum dalam alur kerja pembelajaran mesin:
+<ol>
+<li>Definisi Masalah
+Tujuan: Mendefinisikan masalah yang ingin diselesaikan dengan jelas. Ini melibatkan pemahaman terhadap tujuan bisnis atau penelitian dan menentukan apakah model pembelajaran mesin cocok untuk menyelesaikan masalah tersebut.
+<br>Contoh: Memprediksi churn pelanggan, mengklasifikasikan email sebagai spam, atau meramalkan harga saham.
+</li>
+<li>Pengumpulan Data
+Tujuan: Mengumpulkan semua data yang relevan yang diperlukan untuk melatih model. Data ini dapat berasal dari berbagai sumber, seperti database, API, sensor, atau web scraping.
+<br>Contoh: Mengumpulkan data pelanggan untuk model prediksi churn, termasuk informasi demografis dan riwayat pembelian.
+</li>
+<li>Praproses Data
+Tujuan: Menyiapkan data untuk pemodelan dengan membersihkan dan mentransformasikannya. Ini dapat melibatkan penanganan nilai yang hilang, menghapus duplikat, penskalaan fitur, mengonversi data kategori, dan membagi data menjadi set pelatihan, validasi, dan pengujian.
+<br>Contoh: Mengisi nilai usia yang hilang dengan median, menormalkan fitur pendapatan, dan mengonversi label kategori menjadi format numerik.
+</li>
+<li>Analisis Data Eksploratif (EDA)
+Tujuan: Memahami data lebih baik melalui visualisasi dan analisis statistik. EDA membantu mengidentifikasi pola, korelasi, dan potensi masalah dalam data.
+<br>Contoh: Membuat histogram, plot pencar, atau matriks korelasi untuk melihat hubungan antar variabel.
+</li>
+<li>Rekayasa Fitur
+Tujuan: Menciptakan dan mentransformasikan fitur untuk meningkatkan kinerja model. Ini dapat melibatkan pemilihan fitur yang relevan, menciptakan fitur baru, atau mengurangi jumlah fitur dengan teknik seperti Analisis Komponen Utama (PCA).
+<br>Contoh: Mengonversi tanggal menjadi hari atau bulan, membuat fitur interaksi, atau menggunakan PCA untuk mengurangi dimensi.
+</li>
+<li>Pemilihan Model
+Tujuan: Memilih algoritma yang sesuai berdasarkan jenis masalah, seperti klasifikasi, regresi, klasterisasi, atau rekomendasi. Anda mungkin juga mencoba beberapa algoritma untuk menemukan yang terbaik.
+<br>Contoh: Mencoba algoritma seperti regresi logistik, pohon keputusan, dan random forest untuk tugas klasifikasi.
+</li>
+<li>Pelatihan Model
+Tujuan: Melatih model yang dipilih pada data pelatihan. Selama pelatihan, model mempelajari hubungan dalam data dengan menyesuaikan parameternya.
+<br>Contoh: Melatih jaringan saraf pada gambar berlabel untuk mengklasifikasikan objek.
+</li>
+<li>Evaluasi Model
+Tujuan: Menilai kinerja model pada data validasi atau pengujian untuk melihat seberapa baik model mampu menggeneralisasi ke data baru. Metrik yang digunakan bergantung pada jenis masalah, seperti akurasi untuk klasifikasi atau mean squared error untuk regresi.
+<br>Contoh: Mengevaluasi model deteksi spam menggunakan metrik seperti presisi, recall, dan skor F1.
+</li>
+<li>Tuning Hyperparameter
+Tujuan: Meningkatkan kinerja model dengan mengoptimalkan hyperparameter, yang merupakan pengaturan model yang tidak dipelajari dari data. Teknik seperti pencarian grid (grid search) dan pencarian acak (random search) sering digunakan.
+<br>Contoh: Mengatur jumlah pohon dalam model random forest atau tingkat pembelajaran pada jaringan saraf.
+</li>
+<li>Penerapan Model
+Tujuan: Membuat model yang telah dilatih tersedia untuk digunakan di lingkungan produksi, sehingga dapat mulai membuat prediksi pada data dunia nyata. Ini bisa berupa membuat API, menyematkan model ke aplikasi perangkat lunak, atau menerapkannya di layanan cloud.
+<br>Contoh: Menerapkan sistem rekomendasi pada situs e-commerce untuk merekomendasikan produk kepada pengguna secara real-time.
+</li>
+<li>Pemantauan dan Pemeliharaan
+Tujuan: Memantau kinerja model yang telah diterapkan seiring waktu untuk memastikan model tetap akurat dan relevan. Ini melibatkan pelacakan model drift, melatih ulang dengan data baru jika diperlukan, dan memperbarui model sesuai kebutuhan.
+<br>Contoh: Memantau model prediksi pemeliharaan untuk mesin industri dan melatih ulang model secara berkala saat data baru tersedia.
+</li>
+</ol>
+
