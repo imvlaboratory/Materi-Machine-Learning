@@ -150,6 +150,7 @@ Mengukur seberapa banyak dari total sampel positif yang berhasil diprediksi deng
 Kombinasi dari presisi dan recall yang memberikan keseimbangan antara keduanya, khususnya jika kedua metrik sama pentingnya.
 </li>
 </ul>
+
 ## Bonus. Hyperparameter Optimization via Grid Search Method
 Grid search adalah metode pencarian hyperparameter yang umum digunakan dalam pembelajaran mesin untuk menemukan kombinasi parameter terbaik bagi model. Hyperparameter adalah parameter yang nilainya tidak dipelajari dari data, melainkan diatur sebelum pelatihan model dimulai. Contoh hyperparameter termasuk jumlah pohon dalam model random forest atau tingkat pembelajaran dalam model jaringan saraf.
 
