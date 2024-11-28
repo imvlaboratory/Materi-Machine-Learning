@@ -30,14 +30,14 @@ https://www.kaggle.com/code/gusthema/titanic-competition-w-tensorflow-decision-f
     Secara umum, proses pembelajaran algoritma ini dapat bersifat `supervised ataupun unsupervised`, tergantung pada data yang digunakan untuk melatih algoritma. Machine Learning menggabungkan `algoritma “klasik”` untuk berbagai macam tugas seperti `pengelompokan (clustering), regresi, atau klasifikasi`. Algoritma Machine Learning harus dilatih pada data dengan memberikan label tertentu. `Semakin banyak data` yang diberikan ke dalam algoritma, maka `hasilnya akan semakin baik`.
     
     <p align="center">
-    <img src="assets/ml2_0.png" width="432" style="vertical-align:middle">
+    <img src="assets/ml2_0.png" width="800" style="vertical-align:middle">
 </p>
 
 Secara umum, proses pembelajaran algoritma ini dapat bersifat supervised ataupun unsupervised, tergantung pada data yang digunakan untuk melatih algoritma.
 
 ## B. Features and Labels
 <p align="center">
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmOSmpA-HUYZCCXYb2rNnaqpd9XCHzh10_id4wi6zZqYmH9DpkcKqXnjha30vKI5agUgCLPlhYamtfXyrjgdaJOrvrrUPoDMijd_K6n2eUIs16gldq6B6q_sRuEAMVVkF-xF9VK454rx0/s650/model.png" width="800" style="vertical-align:middle">
+    <img src="assets/tabel_0.png" width="800" style="vertical-align:middle">
 </p>
 
 Dalam machine learning, ada dua konsep dasar yang membantu membangun model prediksi adalah `fitur` dan `label`. Bayangkan fitur sebagai karakteristik atau sifat dari setiap data. Fitur-fitur ini adalah atribut yang dapat diukur dari setiap item dalam dataset dan memberikan informasi penting yang digunakan model untuk membuat keputusan. Sebagai contoh, jika kita mencoba memprediksi harga rumah, fitur-fitur mungkin mencakup jumlah kamar tidur, luas bangunan, dan lokasi rumah. Setiap fitur ini memberikan informasi yang membantu menjelaskan apa yang membuat setiap rumah unik dan pada akhirnya memengaruhi prediksi model.
@@ -79,7 +79,7 @@ Regresi adalah jenis tugas pembelajaran mesin di mana tujuannya adalah mempredik
 
 ## D. Machine Learning Workflow
 <p align="center">
-<img src="https://miro.medium.com/v2/resize:fit:1200/1*XgcF3ayEH2Q8JEbZx8D09Q.png" width="800" style="vertical-align:middle">
+<img src="assets/flow_0.png" width="800" style="vertical-align:middle">
 </p>
 Alur kerja (workflow) pembelajaran mesin adalah pendekatan terstruktur untuk membangun dan menerapkan model pembelajaran mesin, mulai dari persiapan data hingga evaluasi dan penerapan model akhir. Berikut adalah langkah-langkah umum dalam alur kerja pembelajaran mesin:
 <ol>
@@ -131,7 +131,7 @@ Tujuan: Memantau kinerja model yang telah diterapkan seiring waktu untuk memasti
 
 ## E. Performance Metrics
 <p align="center">
-<img src="https://media.licdn.com/dms/image/v2/C5112AQGM7rWklfggow/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1578311015279?e=2147483647&v=beta&t=1akmPtn_45gpDcBLAwNKyAjSWfGJdQX8Z4npNBoym_I" width="800" style="vertical-align:middle">
+<img src="assets/hasil Rumus_0.png" width="800" style="vertical-align:middle">
 <br>TP = True Positive; TN = True Negative; FP = False Positive; FN = False Negative;
 </p>
 Performance metrics adalah ukuran yang digunakan untuk mengevaluasi kinerja model pembelajaran mesin. Berikut adalah beberapa metrik umum beserta penjelasannya secara singkat:
