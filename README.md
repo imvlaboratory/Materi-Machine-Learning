@@ -30,7 +30,7 @@ https://www.kaggle.com/code/gusthema/titanic-competition-w-tensorflow-decision-f
     Secara umum, proses pembelajaran algoritma ini dapat bersifat `supervised ataupun unsupervised`, tergantung pada data yang digunakan untuk melatih algoritma. Machine Learning menggabungkan `algoritma “klasik”` untuk berbagai macam tugas seperti `pengelompokan (clustering), regresi, atau klasifikasi`. Algoritma Machine Learning harus dilatih pada data dengan memberikan label tertentu. `Semakin banyak data` yang diberikan ke dalam algoritma, maka `hasilnya akan semakin baik`.
     
     <p align="center">
-    <img src="https://cdn-images-1.medium.com/max/800/1*rbaxTrB_CZCqbty_zv2bEg.png" width="432" style="vertical-align:middle">
+    <img src="assets/ml2_0.png" width="432" style="vertical-align:middle">
 </p>
 
 Secara umum, proses pembelajaran algoritma ini dapat bersifat supervised ataupun unsupervised, tergantung pada data yang digunakan untuk melatih algoritma.
