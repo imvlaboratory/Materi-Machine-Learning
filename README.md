@@ -1,5 +1,8 @@
 <h1 align="center">Study Group Day 3 : Machine Learning </h1>
 
+## Important Links
+https://colab.research.google.com/drive/1hSHzW7qlz4lTI1-CvUclPUiN-3uJH47Y#scrollTo=XzrHk3XJ4Trg<br>
+https://www.kaggle.com/code/gusthema/titanic-competition-w-tensorflow-decision-forests<br>
 ## A. What is Machine Learning?
 
 <p align="center">
